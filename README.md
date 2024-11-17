@@ -20,7 +20,8 @@ The project studies the limit conditions of sampling of an image to avoid aliasi
 [Project 4](./4_Frequency_filtering/). The scope of this project is the study of possible alternatives to have convolutional filtering of images. 
 
 ## 5. Edge detection 
-
+In [project 5](./5_Edge_detection/) we experiment with various edge detectors.
+Particularly, we consider and study **Sobel filters** and **Laplacian filters**, putting into comparison First Order Detectors, which work on the gradient of an image, and Second Order Detectors, focused on the second derivative of the image. 
 
 ## 6. Harris corner detection 
 
