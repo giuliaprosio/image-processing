@@ -24,9 +24,19 @@ In [project 5](./5_Edge_detection/) we experiment with various edge detectors.
 Particularly, we consider and study **Sobel filters** and **Laplacian filters**, putting into comparison First Order Detectors, which work on the gradient of an image, and Second Order Detectors, focused on the second derivative of the image. 
 
 ## 6. Harris corner detection 
+[Project 6](./6_Harris_corner_detection/) is focused on the use of this powerful corner detector to process images. 
+The Harris-Stephen's corners detectors computes a "corner response" matrix for each pixel based on the changes in intensity within a small window around the pixel, analyzing gradients in all directions. This way it is able to output the probable corners of an image. 
 
 ## 7. Split and merge
+[Project 7](./7_Split_and_merge/) implements and tests the **split and merge** algorithm. This is a segmentation recursive algorithm used to split an image into heterogeneous regions. 
 
 ## 8. Search by content 
+In [project 8](./8_Search_by_content/) we study the we develop a color based descriptor and then use it to find images the most similar to a color query. 
+The descriptor is based on the HSV histograms and content query on similarity matrices between images in a database, each represented by an HSV descriptor. 
 
 ## 9-10. Face recognition
+The objective of the [project 9-10](./9-10_Face_recognition/) work is to study the properties of eigenfaces face recognition method.
+
+The Eigenfaces method is a technique for face recognition using principal component analysis (PCA). It transforms high-dimensional face images into a lower-dimensional subspace defined by eigenvectors, called eigenfaces, which capture the most significant features of facial variations.
+
+Using this technique we are then able to test the recognition of faces in images and reconstruct specific faces from a dataset of images. 
